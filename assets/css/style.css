@@ -1,0 +1,53 @@
+
+body {
+  padding-top: 56px;
+}
+
+.card {
+	overflow-x: hidden;
+}
+#pageNum{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+ 
+}
+ul{
+  list-style-type: none;
+}
+.elemLis{
+
+  display: flex;
+}
+.input_qua{
+  width: 40px;
+}
+
+#pageNum p{
+  margin-right: 10px;
+}
+.card img { 
+  height: 200px;
+  width: auto !important;
+  display: block;
+  margin: 0 auto;
+}
+
+.card img.img-fluid {
+  height: 500px;
+}
+
+body > .container {
+  min-height: 100vh;
+}
+
+.carousel-item{
+  height: 500px;
+  overflow-y: hidden;
+}
+
+.carousel-item img{
+  width: 100%;
+  transform: translateY(-175px);
+}
